@@ -1,0 +1,663 @@
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.container {
+  width: 95%;
+}
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.btn-default:active,
+.btn-primary:active,
+.btn-success:active,
+.btn-info:active,
+.btn-warning:active,
+.btn-danger:active,
+.btn-default.active,
+.btn-primary.active,
+.btn-success.active,
+.btn-info.active,
+.btn-warning.active,
+.btn-danger.active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.btn-default.disabled,
+.btn-primary.disabled,
+.btn-success.disabled,
+.btn-info.disabled,
+.btn-warning.disabled,
+.btn-danger.disabled,
+.btn-default[disabled],
+.btn-primary[disabled],
+.btn-success[disabled],
+.btn-info[disabled],
+.btn-warning[disabled],
+.btn-danger[disabled],
+fieldset[disabled] .btn-default,
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-success,
+fieldset[disabled] .btn-info,
+fieldset[disabled] .btn-warning,
+fieldset[disabled] .btn-danger {
+  box-shadow: none;
+}
+.btn-default .badge,
+.btn-primary .badge,
+.btn-success .badge,
+.btn-info .badge,
+.btn-warning .badge,
+.btn-danger .badge {
+  text-shadow: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+}
+.btn-default {
+  background-color: #337ab7;
+  border-color: #245580;
+  text-shadow: 0 1px 0 #fff;
+  border-color: #ccc;
+}
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #265a88;
+  background-position: 0 -15px;
+}
+.btn-default:active,
+.btn-default.active {
+  background-color: #265a88;
+  border-color: #245580;
+}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: #265a88;
+  background-image: none;
+}
+.btn-primary {
+  background-color: #005bc5;
+  border-color: #003a7e;
+  border-radius: 1px;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #003f88;
+  background-position: 0 -15px;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #003f88;
+  border-color: #003a7e;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #003f88;
+  background-image: none;
+}
+.btn-success {
+  background-color: #5cb85c;
+  border-color: #3e8f3e;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #419641;
+  background-position: 0 -15px;
+}
+.btn-success:active,
+.btn-success.active {
+  background-color: #419641;
+  border-color: #3e8f3e;
+}
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #419641;
+  background-image: none;
+}
+.btn-info {
+  background-color: #5bc0de;
+  border-color: #28a4c9;
+}
+.btn-info:hover,
+.btn-info:focus {
+  background-color: #2aabd2;
+  background-position: 0 -15px;
+}
+.btn-info:active,
+.btn-info.active {
+  background-color: #2aabd2;
+  border-color: #28a4c9;
+}
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info.focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+  background-color: #2aabd2;
+  background-image: none;
+}
+.btn-warning {
+  background-color: #f0ad4e;
+  border-color: #e38d13;
+}
+.btn-warning:hover,
+.btn-warning:focus {
+  background-color: #eb9316;
+  background-position: 0 -15px;
+}
+.btn-warning:active,
+.btn-warning.active {
+  background-color: #eb9316;
+  border-color: #e38d13;
+}
+.btn-warning.disabled,
+.btn-warning[disabled],
+fieldset[disabled] .btn-warning,
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled.focus,
+.btn-warning[disabled].focus,
+fieldset[disabled] .btn-warning.focus,
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warning:active,
+.btn-warning.disabled.active,
+.btn-warning[disabled].active,
+fieldset[disabled] .btn-warning.active {
+  background-color: #eb9316;
+  background-image: none;
+}
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #b92c28;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: #c12e2a;
+  background-position: 0 -15px;
+}
+.btn-danger:active,
+.btn-danger.active {
+  background-color: #c12e2a;
+  border-color: #b92c28;
+}
+.btn-danger.disabled,
+.btn-danger[disabled],
+fieldset[disabled] .btn-danger,
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled.focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-danger.focus,
+.btn-danger.disabled:active,
+.btn-danger[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-danger.disabled.active,
+.btn-danger[disabled].active,
+fieldset[disabled] .btn-danger.active {
+  background-color: #c12e2a;
+  background-image: none;
+}
+.thumbnail,
+.img-thumbnail {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.navbar {
+  margin-bottom: 0px;
+  border: none;
+}
+.navbar-default {
+  background-color: #212d44;
+  border-radius: 0;
+}
+.logo {
+  float: left;
+  padding: 8px 0 9px;
+}
+.nav-toolbar {
+  color: white;
+  float: right;
+  padding-top: 29px;
+}
+.nav-toolbar > div {
+  font-size: 27px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  position: relative;
+}
+.nav-toolbar > div:before {
+  opacity: 0;
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: -8px;
+  left: -8px;
+  background-color: #005bc5;
+}
+.nav-toolbar > div:first-child {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .nav-toolbar {
+    padding-top: 23px;
+  }
+}
+.nav-toolbar .search-input {
+  width: 0;
+  overflow: hidden;
+  margin-left: 0;
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
+}
+.nav-toolbar .search-input.show-search {
+  width: 170px;
+  margin-left: 30px;
+}
+.nav-toolbar .menu,
+.nav-toolbar .search-icon {
+  cursor: pointer;
+}
+.nav-toolbar .color-toggle:before {
+  opacity: 1;
+}
+.navbar-menu {
+  background-color: #005bc5;
+  border-radius: 0;
+}
+.navbar-menu ul {
+  float: right;
+}
+.navbar-menu ul li:hover a {
+  color: #005bc5;
+}
+.navbar-menu ul li a {
+  padding: 20px 15px;
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
+}
+.nav-wrapper {
+  display: none;
+}
+.jumbotron {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    height: 630px;
+  }
+}
+.jumbotron .container {
+  background-image: url('../../assets/school.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+}
+.jumbotron .container:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.jumbotron.slick-slider {
+  margin-bottom: 1px;
+}
+.jumbotron .slick-slide {
+  height: auto;
+}
+@media (min-width: 768px) {
+  .jumbotron .slick-slide {
+    height: 100%;
+  }
+}
+.jumbotron .slick-prev,
+.jumbotron .slick-next {
+  height: 50px;
+  width: 50px;
+  opacity: 1;
+  color: white;
+}
+.jumbotron .slick-prev:before,
+.jumbotron .slick-next:before {
+  font-size: 42px;
+}
+.jumbotron .slick-prev {
+  left: 25px;
+}
+.jumbotron .slick-prev:before {
+  content: "\f053";
+  font-family: fontAwesome;
+}
+.jumbotron .slick-next {
+  right: 25px;
+}
+.jumbotron .slick-next:before {
+  content: "\f054";
+  font-family: fontAwesome;
+}
+.jumbotron .slick-dots {
+  bottom: 40px;
+}
+.jumbotron .slick-dots .slick-active button:before {
+  color: white;
+}
+.jumbotron .slick-dots button:before {
+  color: white;
+  font-size: 27px;
+  font-family: fontAwesome;
+  content: "\f10c";
+}
+.jumbotron-content {
+  position: relative;
+  padding: 120px 0;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  width: 940px;
+  max-width: 95%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .jumbotron-content {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    padding: 0;
+  }
+}
+.jumbotron-content h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: "Comic Sans MS", cursive;
+}
+.jumbotron-content .btn {
+  text-transform: uppercase;
+}
+.grid-panels {
+  padding: 0;
+}
+.grid-panels .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.grid-panelt {
+  padding: 0;
+  height: 0;
+  padding-top: 20%;
+  background-size: cover;
+  border-left: 1px solid white;
+}
+.grid-panelt h4 {
+  padding: 32px;
+  padding-bottom: 48px;
+  margin: 0;
+  background-color: blue;
+  border-bottom: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+.g-panel {
+  vertical-align: top;
+  padding: 0;
+  padding-top: 20%;
+  border-left: 1px solid white;
+  background-size: cover;
+}
+.g-panel:first-child {
+  border-left: none;
+}
+.g-panel h4 {
+  z-index: 2;
+}
+.grid-panel {
+  padding: 0;
+  height: 0;
+  padding-top: 20%;
+  background-size: cover;
+  border-left: 1px solid white;
+  vertical-align: top;
+}
+.grid-panel:first-child {
+  border-left: none;
+}
+.grid-panel .grid-img {
+  padding: 20%;
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.grid-panel h4 {
+  padding: 32px;
+  padding-bottom: 48px;
+  margin: 0;
+  background-color: blue;
+  border-bottom: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 1;
+  vertical-align: top;
+}
+.panel-title {
+  padding: 16px;
+  margin: 0;
+  background-color: blue;
+  border-bottom: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.grid-panel1 .grid-img1 {
+  background-image: url('../../assets/rugby.jpg');
+}
+.grid-panel1 h4 {
+  background-color: #005bc5;
+}
+.grid-panel2 .grid-img2 {
+  background-image: url('../../assets/piano.jpg');
+}
+.grid-panel2 h4 {
+  background-color: #0de5a8;
+}
+.grid-panel3 .grid-img3 {
+  background-image: url('../../assets/ducks.jpg');
+}
+.grid-panel3 h4 {
+  background-color: #30c4c9;
+}
+.grid-panel4 .grid-img4 {
+  background-image: url('../../assets/sports.jpg');
+}
+.grid-panel4 h4 {
+  background-color: #ff6e27;
+}
+.grid-panel5 .grid-img5 {
+  background-image: url('../../assets/classroom.jpg');
+}
+.grid-panel5 h4 {
+  background-color: #ffb60b;
+}
+.grid-panel6 .grid-img6 {
+  background-image: url('../../assets/book.jpg');
+}
+.grid-panel6 h4 {
+  background-color: #4f2958;
+}
+.grid-panel7 .grid-img7 {
+  background-image: url('../../assets/child.jpg');
+}
+.grid-panel7 h4 {
+  background-color: #212d44;
+}
+.grid-panel8 .grid-img8 {
+  background-image: url('../../assets/uniform.jpg');
+}
+.grid-panel8 h4 {
+  background-color: #88c100;
+}
+.bottom-panels {
+  background-color: #000000;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+.bottom-panels .row {
+  margin: 0;
+}
+.bottom-panels h4 {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.bottom-panels ul {
+  padding-left: 0;
+}
+.bottom-panels li {
+  color: white;
+  list-style: none;
+  padding: 2px;
+}
+.bottom-panels .location {
+  background-color: #CCC;
+  height: 50%;
+  margin-bottom: 1px;
+}
+.bottom-nav {
+  background-color: #005bc5;
+  border-radius: 0;
+  height: auto;
+  width: 100%;
+}
+.bottom-nav li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+.bottom-nav li:first-child {
+  margin-left: 0;
+}
+.bottom-nav .copyright {
+  float: right;
+  color: white;
+  width: auto;
+}
+.bottom-nav .copyright p {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.bottom-nav .copyright p:first-child {
+  margin-right: 30px;
+}
+.media-icons ul li {
+  font-size: 24px;
+  color: white;
+}
