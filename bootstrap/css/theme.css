@@ -372,9 +372,6 @@ body {
 .quals p {
   font-size: 1.25em;
 }
-.portfolio {
-  padding: none;
-}
 .portfolio h1 {
   font-size: 4em;
   font-weight: 900;
@@ -413,9 +410,6 @@ body {
 }
 .portfolio p {
   font-size: 1.25em;
-}
-.portfolio .row {
-  margin-bottom: 5%;
 }
 .contact {
   border-bottom: none;
