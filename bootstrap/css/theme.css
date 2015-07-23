@@ -405,6 +405,9 @@ body {
   display: inline-block;
   width: 50%;
 }
+.portfolio .slider-wrapper #slider {
+  transform: translateX(-25%);
+}
 .portfolio h3 {
   font-weight: 600;
 }
