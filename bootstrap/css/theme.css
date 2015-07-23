@@ -320,22 +320,22 @@ body {
 .navbar-default .navbar-brand {
   font-weight: 900;
   font-size: 3em;
-  color: #3B3B3B;
+  color: #708090;
   text-decoration: underline;
   height: auto;
   padding: 23% 10%;
 }
 .navbar-default .navbar-brand:hover {
-  color: #DDD;
+  color: #2B2B2B;
 }
 .navbar-default .navbar-nav li:first-child {
   visibility: hidden;
 }
 .navbar-default .navbar-nav li a {
-  color: #3B3B3B;
+  color: #708090;
 }
 .navbar-default .navbar-nav li a:hover {
-  color: #DDD;
+  color: #2B2B2B;
 }
 .main {
   margin-left: 15%;
@@ -401,11 +401,21 @@ body {
   background-image: url('../../assets/1920-fullwidth.jpg');
   background-size: cover;
 }
+.portfolio .slider-wrapper {
+  display: inline-block;
+  width: 50%;
+}
+.portfolio .slider-wrapper #slider {
+  margin-left: -10%;
+}
 .portfolio h3 {
   font-weight: 600;
 }
 .portfolio p {
   font-size: 1.25em;
+}
+.portfolio .row {
+  margin-bottom: 5%;
 }
 .contact {
   border-bottom: none;
@@ -420,7 +430,7 @@ body {
 .footer-wrap {
   background-color: white;
   font-family: 'Roboto', sans-serif;
-  color: #DDD;
+  color: #708090;
   padding-top: 1%;
   padding-bottom: 1%;
 }
@@ -452,7 +462,7 @@ body {
 .footer-wrap .footer .hleft ul li i {
   font-size: 2em;
   margin-right: 10px;
-  color: #DDD;
+  color: #708090;
 }
 @media (min-width: 768px) {
   .footer-wrap .footer .hleft ul li i {
