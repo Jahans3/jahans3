@@ -405,9 +405,6 @@ body {
   display: inline-block;
   width: 50%;
 }
-.portfolio .slider-wrapper #slider {
-  margin-left: -10%;
-}
 .portfolio h3 {
   font-weight: 600;
 }
