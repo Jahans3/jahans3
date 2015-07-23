@@ -406,7 +406,7 @@ body {
   width: 50%;
 }
 .portfolio .slider-wrapper #slider {
-  transform: translateX(-25%);
+  transform: translateX(-12.5%);
 }
 .portfolio h3 {
   font-weight: 600;
