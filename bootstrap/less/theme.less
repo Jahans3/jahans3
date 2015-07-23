@@ -185,12 +185,12 @@ body {
   .navbar-brand {
     font-weight: 900;
     font-size: 3em;
-    color: #3B3B3B;
+    color: #708090;
     text-decoration: underline;
     height: auto;
     padding: 23% 10%;
     &:hover {
-      color: #DDD;
+      color: #2B2B2B;
     }
   }
 
@@ -201,9 +201,9 @@ body {
       }
 
       a{
-      color: #3B3B3B;
+      color: #708090;
       &:hover {
-        color: #DDD;
+        color: #2B2B2B;
       }
     }
     }
@@ -290,7 +290,14 @@ body {
       background-size: cover;
       }
     }
+    }
   }
+  .slider-wrapper {
+    display: inline-block;
+    width: 50%;
+    #slider {
+      margin-left: -10%;
+    }
   }
   h3 {
     font-weight: 600;
@@ -300,6 +307,9 @@ body {
   }
   .btn-ro {
     &:extend(.rd-on);
+  }
+  .row {
+    margin-bottom: 5%;
   }
 }
 
@@ -321,7 +331,7 @@ body {
 .footer-wrap {
   background-color: white;
   font-family: 'Roboto', sans-serif;
-  color: #DDD;
+  color: #708090;
   padding-top: 1%;
   padding-bottom: 1%;
   .footer {
@@ -353,7 +363,7 @@ body {
           i {
             font-size: 2em;
             margin-right: 10px;
-            color: #DDD;
+            color: #708090;
             @media(min-width: 768px){
               margin-right: 5%;
             }

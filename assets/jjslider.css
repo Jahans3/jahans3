@@ -1,0 +1,65 @@
+body {
+}
+
+.navr {
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
+.jumbo {
+	width: 900px;
+	margin: 0 auto 0 auto;
+	padding: 10px 10px 10px 10px;
+}
+
+.tabs-li {
+	display: inline-block;
+	border: 1px solid;
+}
+
+.panel-set {
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
+.panel-set .panel.active {
+	width: 300px;
+	display: inline-block;
+	visibility: visible;
+	float: left;
+}
+
+.panel-set .panel {
+	width: 300px;
+	display: inline-block;
+	visibility: hidden;
+	float: left;
+}
+
+.panel-set .tabs .tab-btn.active {
+	
+}
+
+#slider {
+	margin-left: auto;
+	margin-right: auto;
+	width: 473px;
+	height: 254px;
+	border: 10px solid white;
+	overflow: hidden;
+}
+
+#slider .slides {
+	display: block;
+	width: 2365px;
+	height: 254px;
+	margin: 0;
+	padding: 0;
+}
+
+#slider .slide {
+	float: left;
+	list-style-type: none;
+	width: 473px;
+	height: 254px;
+}
