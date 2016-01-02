@@ -63,3 +63,12 @@ body {
 	width: 473px;
 	height: 254px;
 }
+
+.slider-wrapper {
+	display: table;
+	margin: auto;
+}
+
+.portfolio.slider-wrapper#slider {
+	margin: 0 auto;
+}
